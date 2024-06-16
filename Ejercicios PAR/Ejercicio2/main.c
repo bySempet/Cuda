@@ -32,7 +32,9 @@ int main(int argc, char *argv[]) {
         }
         printf("\n");
     }
-
+    printf("Tiempo CPU: %f\n", time_cpu);
+    printf("Tiempo GPU: %f\n", time_gpu);
+    
     free(A);
     free(B);
     free(C);
